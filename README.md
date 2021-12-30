@@ -30,7 +30,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'CheckoutEventLoggerKit', :git => 'https://github.com/checkout/checkout-3ds-sdk-ios-framework.git', :tag => '1.0.0'
+    pod 'CheckoutEventLoggerKit', :git => 'https://github.com/checkout/checkout-event-logger-ios-framework.git', :tag => '1.0.0'
 end
 ```
 
@@ -52,6 +52,6 @@ Once you have your Swift package set up, adding CheckoutEventLoggerKit as a depe
 
 ```
 dependencies: [
-    .package(url: "https://github.com/checkout/checkout-3ds-sdk-ios-framework.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/checkout/checkout-event-logger-ios-framework.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
