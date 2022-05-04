@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CheckoutEventLoggerKit"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "Checkout Event Logger Kit"
   s.description  = <<-DESC
   Checkout Event Logger Kit

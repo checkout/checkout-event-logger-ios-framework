@@ -4,7 +4,10 @@ import PackageDescription
 let package = Package(
     name: "CheckoutEventLoggerKit",
     platforms: [
-        .iOS(.v10)
+        .macOS(.v10_15),
+        .iOS(.v10),
+        .watchOS(.v4),
+        .tvOS(.v10)
     ],
     products: [
         .library(
