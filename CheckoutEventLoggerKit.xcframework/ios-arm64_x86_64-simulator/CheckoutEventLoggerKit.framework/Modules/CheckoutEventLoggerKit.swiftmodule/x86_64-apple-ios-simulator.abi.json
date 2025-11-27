@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "CheckoutEventLoggerKit",
+    "printedName": "CheckoutEventLoggerKit",
     "children": [
       {
         "kind": "Import",
@@ -217,6 +217,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -350,7 +364,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -374,6 +388,22 @@
         "moduleName": "CheckoutEventLoggerKit",
         "declAttributes": [
           "UsableFromInline"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -621,7 +651,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any, inout Swift.SingleValueEncodingContainer) throws -> Swift.Bool",
+                "printedName": "(Any, inout any Swift.SingleValueEncodingContainer) throws -> Swift.Bool",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -632,7 +662,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any, Swift.SingleValueEncodingContainer)",
+                    "printedName": "(Any, any Swift.SingleValueEncodingContainer)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -642,7 +672,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "SingleValueEncodingContainer",
-                        "printedName": "Swift.SingleValueEncodingContainer",
+                        "printedName": "any Swift.SingleValueEncodingContainer",
                         "usr": "s:s28SingleValueEncodingContainerP"
                       }
                     ]
@@ -671,6 +701,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1035,7 +1079,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1317,6 +1361,22 @@
         "moduleName": "CheckoutEventLoggerKit",
         "declAttributes": [
           "UsableFromInline"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1600,6 +1660,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2040,6 +2114,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2282,6 +2370,22 @@
         "moduleName": "CheckoutEventLoggerKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2352,6 +2456,39 @@
                 "moduleName": "CheckoutEventLoggerKit"
               },
               {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CheckoutEventLoggerKit.CheckoutEventLogger.MetadataKey?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MetadataKey",
+                        "printedName": "CheckoutEventLoggerKit.CheckoutEventLogger.MetadataKey",
+                        "usr": "s:22CheckoutEventLoggerKit0abC0C11MetadataKeyO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22CheckoutEventLoggerKit0abC0C11MetadataKeyO8rawValueAESgSS_tcfc",
+                "mangledName": "$s22CheckoutEventLoggerKit0abC0C11MetadataKeyO8rawValueAESgSS_tcfc",
+                "moduleName": "CheckoutEventLoggerKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
                 "kind": "Var",
                 "name": "rawValue",
                 "printedName": "rawValue",
@@ -2389,39 +2526,6 @@
                     "accessorKind": "get"
                   }
                 ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CheckoutEventLoggerKit.CheckoutEventLogger.MetadataKey?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetadataKey",
-                        "printedName": "CheckoutEventLoggerKit.CheckoutEventLogger.MetadataKey",
-                        "usr": "s:22CheckoutEventLoggerKit0abC0C11MetadataKeyO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:22CheckoutEventLoggerKit0abC0C11MetadataKeyO8rawValueAESgSS_tcfc",
-                "mangledName": "$s22CheckoutEventLoggerKit0abC0C11MetadataKeyO8rawValueAESgSS_tcfc",
-                "moduleName": "CheckoutEventLoggerKit",
-                "implicit": true,
-                "init_kind": "Designated"
               }
             ],
             "declKind": "Enum",
@@ -2434,6 +2538,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -2681,6 +2799,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CheckoutEventLogging",
             "printedName": "CheckoutEventLogging",
             "usr": "s:22CheckoutEventLoggerKit0aB7LoggingP",
@@ -2896,14 +3028,14 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Var",
-            "name": "allCases",
-            "printedName": "allCases",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CheckoutEventLoggerKit.MonitoringLevel]",
+                "name": "Optional",
+                "printedName": "CheckoutEventLoggerKit.MonitoringLevel?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2912,45 +3044,21 @@
                     "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvpZ",
-            "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvpZ",
+            "declKind": "Constructor",
+            "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8rawValueACSgSS_tcfc",
+            "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8rawValueACSgSS_tcfc",
             "moduleName": "CheckoutEventLoggerKit",
-            "static": true,
             "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[CheckoutEventLoggerKit.MonitoringLevel]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MonitoringLevel",
-                        "printedName": "CheckoutEventLoggerKit.MonitoringLevel",
-                        "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvgZ",
-                "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvgZ",
-                "moduleName": "CheckoutEventLoggerKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
@@ -2992,14 +3100,14 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CheckoutEventLoggerKit.MonitoringLevel?",
+                "name": "Array",
+                "printedName": "[CheckoutEventLoggerKit.MonitoringLevel]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3008,21 +3116,48 @@
                     "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO"
                   }
                 ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "usr": "s:Sa"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8rawValueACSgSS_tcfc",
-            "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8rawValueACSgSS_tcfc",
+            "declKind": "Var",
+            "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvpZ",
+            "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvpZ",
             "moduleName": "CheckoutEventLoggerKit",
+            "static": true,
             "implicit": true,
-            "init_kind": "Designated"
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CheckoutEventLoggerKit.MonitoringLevel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MonitoringLevel",
+                        "printedName": "CheckoutEventLoggerKit.MonitoringLevel",
+                        "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvgZ",
+                "mangledName": "$s22CheckoutEventLoggerKit15MonitoringLevelO8allCasesSayACGvgZ",
+                "moduleName": "CheckoutEventLoggerKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -3034,6 +3169,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3118,8 +3267,39 @@
         "mangledName": "$s10Foundation11JSONEncoderC",
         "moduleName": "Foundation",
         "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "TopLevelEncoder",
@@ -3141,13 +3321,6 @@
             ],
             "usr": "s:7Combine15TopLevelEncoderP",
             "mangledName": "$s7Combine15TopLevelEncoderP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3160,8 +3333,32 @@
         "mangledName": "$s10Foundation11JSONDecoderC",
         "moduleName": "Foundation",
         "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TopLevelDecoder",
@@ -3224,6 +3421,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3299,6 +3510,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3359,7 +3584,9 @@
         "objc_name": "NSBundle",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
           "NonSendable",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -3369,6 +3596,27 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3425,487 +3673,109 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogURLSessionDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 144,
-      "length": 29,
-      "value": "\"CheckoutEventLoggerKit.CheckoutLogURLSessionDelegate\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "StringLiteral",
-      "offset": 2935,
-      "length": 38,
-      "value": "\"AnyDecodable value cannot be decoded\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3241,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4573,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "StringLiteral",
-      "offset": 5145,
-      "length": 41,
-      "value": "\"AnyDecodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "StringLiteral",
-      "offset": 5184,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "StringLiteral",
-      "offset": 5223,
-      "length": 30,
-      "value": "\"AnyDecodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyDecodable.swift",
-      "kind": "StringLiteral",
-      "offset": 5251,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1238,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
-      "kind": "StringLiteral",
-      "offset": 3572,
-      "length": 39,
-      "value": "\"AnyCodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
-      "kind": "StringLiteral",
-      "offset": 3609,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
-      "kind": "StringLiteral",
-      "offset": 3648,
-      "length": 28,
-      "value": "\"AnyCodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
-      "kind": "StringLiteral",
-      "offset": 3674,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Codability\/AnyCodable.swift",
       "kind": "Array",
       "offset": 4157,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 22,
       "value": "\"y-MM-dd H:mm:ss.SSSS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 598,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1471,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 13,
       "value": "\"specversion\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 13,
-      "value": "\"specversion\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
       "kind": "StringLiteral",
       "offset": 2854,
       "length": 10,
       "value": "\"loglevel\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2854,
-      "length": 10,
-      "value": "\"loglevel\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 3964,
-      "length": 38,
-      "value": "\"AnyEncodable value cannot be encoded\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 5381,
-      "length": 60,
-      "value": "\"NSNumber cannot be encoded because its type is not handled\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5752,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7204,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 7776,
-      "length": 41,
-      "value": "\"AnyEncodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 7815,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 7854,
-      "length": 30,
-      "value": "\"AnyEncodable(\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
-      "kind": "StringLiteral",
-      "offset": 7882,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Codability\/AnyEncodable.swift",
       "kind": "Array",
       "offset": 9246,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1032,
-      "length": 30,
-      "value": "\"application\/cloudevents+json\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogNetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogNetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1517,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1517,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3218,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3705,
-      "length": 19,
-      "value": "\"productIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3754,
-      "length": 16,
-      "value": "\"productVersion\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3797,
-      "length": 13,
-      "value": "\"environment\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3834,
-      "length": 16,
-      "value": "\"appPackageName\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3877,
-      "length": 19,
-      "value": "\"appPackageVersion\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3926,
-      "length": 14,
-      "value": "\"appInstallId\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 3965,
-      "length": 12,
-      "value": "\"deviceName\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4000,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 4031,
-      "length": 11,
-      "value": "\"osVersion\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 12,
       "value": "\"sdk_app_id\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 42,
       "value": "\"CheckoutEventLoggerKit.isNotFreshInstall\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1300,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/SDKAppID\/SDKAppIDProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1511,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfigurationProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 54,
-      "value": "\"https:\/\/cloudevents.integration.checkout.com\/logging\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfigurationProvider.swift",
-      "kind": "IntegerLiteral",
-      "offset": 544,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfigurationProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 62,
-      "value": "\"https:\/\/cloudevents.integration.sandbox.checkout.com\/logging\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/Processors\/CheckoutLogProcessor\/CheckoutLogConfigurationProvider.swift",
-      "kind": "IntegerLiteral",
-      "offset": 810,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 808,
-      "length": 27,
-      "value": "\"unavailableAppPackageName\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 951,
-      "length": 30,
-      "value": "\"unavailableAppPackageVersion\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1755,
-      "length": 28,
-      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 2017,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/RemoteProcessorMetadata+UIKit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2109,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
       "kind": "Array",
       "offset": 323,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
       "kind": "Dictionary",
       "offset": 371,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
+      "filePath": "\/Users\/runner\/work\/checkout-sdk-event-logger-ios\/checkout-sdk-event-logger-ios\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 15,
       "value": "\"CorrelationId\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 529,
-      "length": 15,
-      "value": "\"CorrelationId\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/CheckoutEventLogger.swift",
-      "kind": "Dictionary",
-      "offset": 1900,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/CheckoutEventLoggerKit\/MonitoringLevel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 445,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

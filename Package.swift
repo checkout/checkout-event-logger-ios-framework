@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
     name: "CheckoutEventLoggerKit",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v13)
     ],
     products: [
         .library(
