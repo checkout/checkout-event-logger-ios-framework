@@ -6,9 +6,9 @@ Releases for `CheckoutEventLoggerKit`
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 14.0+
-- Swift 5.7+
+- iOS 13.0+
+- Xcode 16.0+
+- Swift 5.10+
 
 ## Installation
 
@@ -26,11 +26,11 @@ To integrate CheckoutEventLoggerKit into your Xcode project using CocoaPods, spe
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '13.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'CheckoutEventLoggerKit', :git => 'https://github.com/checkout/checkout-event-logger-ios-framework.git', :tag => '1.2.4'
+    pod 'CheckoutEventLoggerKit', :git => 'https://github.com/checkout/checkout-event-logger-ios-framework.git', :tag => 'X.Y.Z'
 end
 ```
 

@@ -6,47 +6,51 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		aIqBFK9dlrpMAAgLVn6rTX/o09k=
+		iIQtyV90CJpf5Q1BmoLC+Q+4MP0=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qfz9HhT8zKgzzOH0K3De1mFRp2Y=
+		kqtICaJpw1MX76M/7ykGj7Td8ZU=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ca8r7sv0AFSTwXyDbHdOLJaa2PQ=
+		LZn47oNjuUeaav7Dcb726xwnicU=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GL3l/bS8cRVwqwayiJzcLv+aYnM=
+		pyEHV9xPdRDkQYj8i2bJbC7kcfA=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ca8r7sv0AFSTwXyDbHdOLJaa2PQ=
+		LZn47oNjuUeaav7Dcb726xwnicU=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xobzm8LpQSLS8wT1Ga30sJ+k+9c=
+		bnlQiVvbphTOlEfmV6DkM3eZ8PM=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qfz9HhT8zKgzzOH0K3De1mFRp2Y=
+		kqtICaJpw1MX76M/7ykGj7Td8ZU=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QAihRUFLH++vxVHe7lWZlnPAFYA=
+		ElNcgTeHaltW3oVtN9YNIepJcWQ=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PwBCx9kaqZucl2jL/johtE4XI5s=
+		JTC5mId+K3RlOdj0PBUId0dyAKQ=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QAihRUFLH++vxVHe7lWZlnPAFYA=
+		ElNcgTeHaltW3oVtN9YNIepJcWQ=
 		</data>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x09FJj3GIzZ/x8kIB0YPunRwQPk=
+		nAfFzIe59Oaf7t2vL2G7LWc9nWI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		wKHwaWouTm7dv8ftbZypn2HNJrY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +59,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NcfZQUoE2Lp6gdj0a6vfHfX9XXh40y1ax//4yDzV8uA=
+			9cwcdkorRWxGI7QdWToz3zSF5b+U6eQcev+7ZXFyD4o=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HNWqZZFJIJpheWaSOZlKrRfkixxbUBMFJ6N7ANDlrko=
+			HPdPtykw3iVhq/OBQQ5Vc/9ceUDPY89thtgeeio1Uxc=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8rRUq7rkjyzlIRB2FklBRwGA/+HAtptDXPP1laTpX8=
+			lTSH+fHpb09iRf6RUujFAtBpqvedn0Q+4uGMpoi10Ww=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HNWqZZFJIJpheWaSOZlKrRfkixxbUBMFJ6N7ANDlrko=
+			HPdPtykw3iVhq/OBQQ5Vc/9ceUDPY89thtgeeio1Uxc=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			csyNsIUHvG6D1/eP4PFo5s8F6qR6eRfLwdX4/k265SI=
+			da7Iqg7yRRHuYknLQQW7RQIZ0rQDHeSiTDxb62uJgkw=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NcfZQUoE2Lp6gdj0a6vfHfX9XXh40y1ax//4yDzV8uA=
+			9cwcdkorRWxGI7QdWToz3zSF5b+U6eQcev+7ZXFyD4o=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPIF/rS6vDrB2FW+sDVRSIzMq4vPqAyXLq2e5bBEDG8=
+			fPeZ58lZ6Y8BBDZelRTSwK7nx9KcpLbTPYm84W0PqY0=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dtkO/YehXVZidGVmvMb8CVqSkABt9p3Dd9TrkKgP0Y8=
+			q/Y1aoTPij/c4w0hIUpuXaIC27th362ienZoK0oIN0g=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPIF/rS6vDrB2FW+sDVRSIzMq4vPqAyXLq2e5bBEDG8=
+			fPeZ58lZ6Y8BBDZelRTSwK7nx9KcpLbTPYm84W0PqY0=
 			</data>
 		</dict>
 		<key>Modules/CheckoutEventLoggerKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O3fIE7CW0XKyySlcmqTvzP2hbL2R6HOSdHKo409lfZg=
+			1tbwLahZbGYlidY0a7SF2sAcwgN9uiyMCRqMnwnJ8Dk=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jlpMj0g0YoTlKmQsk4ZZHcBZmpB7lDPdO9Ef/vx/j5g=
 			</data>
 		</dict>
 	</dict>
